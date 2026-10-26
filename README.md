@@ -1,33 +1,43 @@
-# SpamShield AI — NLP Ham/Spam Detection
+# 🛡️ SpamShield AI — NLP Ham/Spam Message Detection
 
-## Project Overview
-SpamShield AI is a machine learning application that classifies text messages as Spam or Ham (Non-Spam) using Natural Language Processing and Logistic Regression.
+## 📌 Project Overview
+SpamShield AI is a machine learning application that classifies text messages as Spam or Ham (Non-Spam). It uses Natural Language Processing (NLP) and a trained Logistic Regression model to analyze messages.
 
-## Features
+## 🚀 Key Features
 - Spam and Ham message classification
 - Spam and Ham probability percentages
+- Text analysis and message diagnostics
 - Suspicious phrase and URL detection
-- Message diagnostics
 - Downloadable CSV analysis report
 - Interactive Streamlit web application
 
-## Technologies Used
+## 🛠️ Technologies Used
 - Python
 - Pandas
-- NLP
+- Natural Language Processing (NLP)
 - Scikit-learn
 - CountVectorizer
 - Logistic Regression
 - NLTK
 - Streamlit
 
-## How to Run
-1. Install the required packages using `pip install -r requirements.txt`.
-2. Keep `app.py`, `spam_model.pkl`, and `vectorizer.pkl` in the same folder.
-3. Run `streamlit run app.py` in your terminal.
+## ⚙️ How to Run the Project
 
-## Disclaimer
-Predictions are estimates and do not guarantee whether a message is safe or malicious. Verify suspicious messages through official channels.
+1. Clone or download this repository.
+2. Install the required dependencies using `pip install -r requirements.txt`.
+3. Ensure `app.py`, `spam_model.pkl`, and `vectorizer.pkl` are in the same folder.
+4. Run `streamlit run app.py` in your terminal.
+5. Open the local URL displayed in your terminal.
 
-## Author
+## 📊 Machine Learning Workflow
+1. Input a text message.
+2. Preprocess the text.
+3. Transform the message using the saved CountVectorizer.
+4. Predict the message class using the trained Logistic Regression model.
+5. Display probability estimates and text diagnostics.
+
+## ⚠️ Disclaimer
+Model probabilities are estimates, not guarantees. Always verify suspicious messages through official channels.
+
+## 👩‍💻 Author
 Harshita Shiraskar
